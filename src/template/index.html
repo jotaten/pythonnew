@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi API de Flask</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+<h1>Interacción con la API</h1>
+
+<div>
+    <h2>Mensaje de la API</h2>
+    <button id="fetchMessage">Obtener Mensaje</button>
+    <div id="responseMessage"></div>
+</div>
+
+<div>
+    <h2>Enviar Datos</h2>
+    <textarea id="dataInput" rows="4" cols="50" placeholder='{"key": "value"}'></textarea><br>
+    <button id="sendData">Enviar Datos</button>
+    <div id="response"></div>
+</div>
+
+<script src="../static/script.js"></script>
+</body>
+</html>
